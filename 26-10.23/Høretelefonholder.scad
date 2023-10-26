@@ -26,6 +26,10 @@ module headphone_holder() {
     translate([70, 95, 3])
         rotate([0, -35, 0])
         cylinder(h = 35, d = 10, $fn=100);
+        
+          translate([50, 75, 3])
+        rotate([-35, 0, 0])
+        cylinder(h = 35, d = 10, $fn=100);
 }
 
 
