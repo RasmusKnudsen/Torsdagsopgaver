@@ -10,12 +10,12 @@ module headphone_holder() {
     // Vandret cylinder
     translate([50, 90, 100])
         rotate([90, 0, 0])
-        cylinder(h = 50, d = 10, $fn=100);
+        cylinder(h = 65, d = 10, $fn=100);
     
-     // Cylinder som stætte til den vandrette cylinder
+     // Cylinder som støtte til den vandrette cylinder
     translate([50, 95, 55])
         rotate([45, 0, 0])
-        cylinder(h = 65, d = 5, $fn=100);
+        cylinder(h = 65, d = 7, $fn=100);
   
      // Cylinder som støtte til højre
     translate([30, 95, 3])
