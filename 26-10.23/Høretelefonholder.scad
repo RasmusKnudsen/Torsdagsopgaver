@@ -12,7 +12,7 @@ module headphone_holder() {
         rotate([90, 0, 0])
         cylinder(h = 50, d = 10, $fn=100);
     
-     // Cylinder, der starter i midten af rektanglen og har en vinkel
+     // Cylinder som stætte til den vandrette cylinder
     translate([50, 95, 55])
         rotate([45, 0, 0])
         cylinder(h = 65, d = 5, $fn=100);
@@ -26,7 +26,7 @@ module headphone_holder() {
     translate([70, 95, 3])
         rotate([0, -35, 0])
         cylinder(h = 35, d = 10, $fn=100);
-        
+        //Cylinder som støtte til foran
           translate([50, 75, 3])
         rotate([-35, 0, 0])
         cylinder(h = 35, d = 10, $fn=100);
